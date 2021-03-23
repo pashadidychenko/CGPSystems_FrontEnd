@@ -24,9 +24,9 @@ button.formButtom {
   font-weight: 800;
 }
 
-button.formButtom {
+#todoFormButtom.todoFormButtom {
   position: absolute;
-  bottom: 10px;
+  bottom: 30px;
   left: 50%;
   transform: translateX(-50%);
 }
