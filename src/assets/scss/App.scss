@@ -1,12 +1,36 @@
-$bg-color: yellow;
-$border-color: red;
-
 .app {
   font-family: helvetica, arial, sans-serif;
   padding: 2em;
-  border: 5px solid $border-color;
+}
 
-  p {
-    background-color: $bg-color;
-  }
+button.formButtom {
+  margin: 20px 10px;
+}
+
+.formInput {
+  margin: 8px;
+  width: 300px;
+}
+
+.cardContainer {
+  position: relative;
+  margin: 10px;
+  width: 410px;
+  height: 400px;
+}
+
+.todoTitle {
+  font-size: medium;
+  font-weight: 800;
+}
+
+button.formButtom {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+p.todoText {
+  display: block;
+  width: 350px;
 }

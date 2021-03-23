@@ -2,12 +2,16 @@ import * as React from "react";
 import { hot } from "react-hot-loader";
 import "./../assets/scss/App.scss";
 import Input from "./Input";
+import TodoList from "./TodoList";
+
+import { StoreProvider } from "../store/useStore";
 
 function App() {
   return (
-    <div className="app">
+    <StoreProvider>
       <Input />
-    </div>
+      <TodoList />
+    </StoreProvider>
   );
 }
 

@@ -4,14 +4,12 @@
     "@babel/preset-react",
     "@babel/preset-typescript"
   ],
-  "plugins": [
-    "react-hot-loader/babel"
-  ],
+  "plugins": ["react-hot-loader/babel", "@babel/transform-runtime"],
   "env": {
     "production": {
-      "presets": [
-        "minify"
-      ]
+      "presets": ["minify"]
     }
   }
 }
+
+// "plugins": ["react-hot-loader/babel"],
